@@ -1,0 +1,12 @@
+/* Ensure the graph containers are responsive */
+.graph-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+}
+
+@media (max-width: 768px) {
+  .graph-container {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+}
